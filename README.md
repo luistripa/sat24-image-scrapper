@@ -4,7 +4,7 @@ A simple python script to extract Sat24 satellite images of Europe's weather.
 
 The images will have a 15 minute refresh interval.
 
-##Controls
+## Controls
 
 Press `u` to update all images. This may take a while.
 
