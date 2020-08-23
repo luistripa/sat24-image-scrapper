@@ -6,7 +6,7 @@ The images will have a 15 minute refresh interval.
 
 ## Requirements
     numpy (tested on version 1.19.1)
-    open-cv2 (tested on version 4.4.0)
+    opencv2 (tested on version 4.4.0)
     pillow (tested on  version 7.2.0)
     requests (tested on version 2.24.0)
 To install the requirements run (**this will install the versions above**):
