@@ -32,7 +32,7 @@ The following images will be displayed:
 
 <img src="src/images/Visible.png" alt="Sat24 visible image"/>
 
-##Fix me!
+## Fix me!
 
 The downloaded images are automatically converted to gray.<br>
 This is an unintended "feature". Work in progress...
