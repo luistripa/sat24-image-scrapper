@@ -6,7 +6,7 @@ The images will have a 15 minute refresh interval.
 
 ## Requirements
     numpy (tested on version 1.19.1)
-    opencv2 (tested on version 4.4.0)
+    opencv2 (tested on version 4.4.0.42)
     pillow (tested on  version 7.2.0)
     requests (tested on version 2.24.0)
 To install the requirements run (**this will install the versions above**):
@@ -19,7 +19,7 @@ A virtual environment is recommended to avoid overriding any existing versions.
 
 Press `u` to update all images. This may take a while.
 
-Press `ESC` to exit the aplication
+Press `ESC` to exit the application
 
 ## Images
 
