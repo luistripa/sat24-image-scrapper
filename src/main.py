@@ -17,7 +17,6 @@ class ImageDelegate:
         for url in self.urlDict:
 
             # Get images from the Sat24 API
-            print(self.urlDict[url])
             content = requests.get(self.urlDict[url], timeout=30).content
             img = Image.open(BytesIO(content))
 

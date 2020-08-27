@@ -1,8 +1,8 @@
 # Sat24-image-scrapper
 
-A simple python script to extract Sat24 satellite images of Europe's weather.
+A simple python script to extract Sat24 satellite images of Africa, Europe and Oceania's weather.
 
-The images will have a 15 minute refresh interval.
+The images will have a 15 minute refresh interval. You have to update the images by hand. Refer to `Controls`.
 
 ## Requirements
     numpy (tested on version 1.19.1)
@@ -17,11 +17,15 @@ A virtual environment is recommended to avoid overriding any existing versions.
     
 ## Controls
 
+Run `python3 src/main.py --help` for a list of parameters.
+
+**While application is running:**
+
 Press `u` to update all images. This may take a while.
 
 Press `ESC` to exit the application
 
-## Images
+## Example Images
 
 The following images will be displayed:
 
@@ -48,6 +52,8 @@ The following images will be displayed:
 The downloaded images are automatically converted to gray.<br>
 This is an unintended "feature". Work in progress...
 
-## Aditional info
+## Additional info
 
-The images present in this repository may be subject to copyright
+- Oceania will only show Infrared and visible. Sat24 does not support rain for Oceania.
+
+- The images present in this repository may be subject to copyright
