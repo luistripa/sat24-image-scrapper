@@ -1,3 +1,5 @@
+import sys
+
 from PIL import Image
 import requests
 from io import BytesIO
@@ -14,6 +16,7 @@ class ImageDelegate:
 
     def update(self):
         print('Updating image sequences for {}...'.format(self.areaID), end='')
+        sys.stdout.flush()
         for url in self.urlDict:
 
             # Get images from the Sat24 API

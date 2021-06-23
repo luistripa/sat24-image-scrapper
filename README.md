@@ -19,6 +19,14 @@ A virtual environment is recommended to avoid overriding any existing versions.
 
 Run `python3 src/main.py --help` for a list of parameters.
 
+You can use the following parameters:
+- `--africa` to show images for the African Continent
+- `--europe` to show images for the European Continent
+- `--oceania` to show images of Oceania
+- A combination of the previous ones to load multiple continents at the same time
+
+Images may take some time to load.
+
 **While application is running:**
 
 Press `u` to update all images. This may take a while.
